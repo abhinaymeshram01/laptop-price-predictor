@@ -1,2 +1,12 @@
-# laptop-price-predictor
-This project predicts laptop prices based on specifications like processor speed, RAM, storage, screen size, weight, and brand. The model is built using machine learning algorithms and evaluated using standard regression metrics. It is deployed as an interactive web application using Streamlit.
+# Laptop Price Predictor
+
+This project predicts laptop prices using machine learning.
+
+## Features
+- Linear Regression model
+- Brand OneHot Encoding
+- Streamlit Web App
+
+## How to Run Locally
+pip install -r requirements.txt
+streamlit run app.py
